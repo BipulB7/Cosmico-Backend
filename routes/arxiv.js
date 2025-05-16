@@ -1,7 +1,7 @@
 // routes/arxiv.js
 const express = require('express');
 const router = express.Router();
-const { fetchArxivPapers } = require('../services/arxivService');
+const { fetchArxivPapers } = require('../services/arxivService'); //fetching
 
 // GET /api/arxiv?query=your_topic&start=0&max_results=10
 router.get('/', async (req, res) => {
